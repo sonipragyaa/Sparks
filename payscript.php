@@ -1,5 +1,7 @@
 
 <?php
+include 'nav.php';
+
 $apikey = "rzp_test_tceqt6zjA48ytA";
 ?>
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
@@ -21,3 +23,32 @@ $apikey = "rzp_test_tceqt6zjA48ytA";
     ></script>
     <input type="hidden" custom="Hidden Element" name="hidden">
     </form>
+    
+        <head>
+            <style>
+                body{
+                    
+                    background:  url("img/online.webp") ;
+                   background-size:cover;
+                    background-repeat:no-repeat;
+                    
+                }
+                .razorpay-payment-button{
+                    margin: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);   
+                    background:green;
+                    color:#fff;
+                    font-weight:600;
+                    padding:16px;
+                    border-radius:10px;
+                }
+          </style>
+</head>
+<body>
+
+    
+</body>
